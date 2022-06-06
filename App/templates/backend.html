@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block title %}Backend{% endblock title %}
 {% block nav-btn %}
-    <a href="#" class="btn btn-outline-danger btn-sm" id="btn-nav">Logout</a>
+    <a href="{% url 'logout' %}" class="btn btn-outline-danger btn-sm text-light border-light" id="btn-nav">Logout</a>
 {% endblock nav-btn %}
                     
 {% block content %}
